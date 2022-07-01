@@ -1,8 +1,14 @@
-import React from "react";
+import React, { useEffect } from "react";
 import emailjs from "@emailjs/browser";
 import "../App.css";
+import Aos from "aos";
+import "aos/dist/aos.css";
 
 const Contact = () => {
+  useEffect(() => {
+    Aos.init();
+  }, []);
+
   const sendemail = (e) => {
     emailjs
       .sendForm(
@@ -29,28 +35,37 @@ const Contact = () => {
       id="contact-container"
     >
       <form onSubmit={sendemail} className="flex flex-col max-w-[600px] w-full">
-        <div className="pb-8">
+        <div data-aos="fade-up" className="pb-8">
           <p className="text-4xl font-bold inline border-b-4 border-fuchsia-600 text-gray-300">
             Contact
           </p>
           <p className="text-gray-300 py-4">YOU CAN CONTACT ME HERE!!</p>
         </div>
-        <label className="text-slate-100 py-2">Enter Full Name</label>
+        <label data-aos="fade-up" className="text-slate-100 py-2">
+          Enter Full Name
+        </label>
         <input
           className="bg-[#f0f1f6] p-2"
+          data-aos="fade-up"
           type="text"
           placeholder="Name"
           name="name"
         />
-        <label className="text-slate-100 py-2">Enter Email</label>
+        <label data-aos="fade-up" className="text-slate-100 py-2">
+          Enter Email
+        </label>
         <input
+          data-aos="fade-up"
           className="my-4 p-2 bg-[#f0f1f6]"
           type="email"
           placeholder="Email"
           name="email"
         />
-        <label className="text-slate-100 py-2">Enter Message</label>
+        <label data-aos="fade-up" className="text-slate-100 py-2">
+          Enter Message
+        </label>
         <textarea
+          data-aos="fade-up"
           className="bg-[#f0f1f6] p-2"
           name="message"
           rows="10"
