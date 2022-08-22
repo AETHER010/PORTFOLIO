@@ -1,11 +1,12 @@
 {
   "files": {
     "main.css": "/static/css/main.75667fdf.css",
-    "main.js": "/static/js/main.5e0b368e.js",
+    "main.js": "/static/js/main.ab131540.js",
+    "static/media/Ecommerce.png": "/static/media/Ecommerce.b5b51a4393bebf296ee3.png",
     "static/media/TravelDairy.png": "/static/media/TravelDairy.cfb46ce615d6e2e8262a.png",
     "static/media/fps.png": "/static/media/fps.ef891d906753173e72a9.png",
     "static/media/car.png": "/static/media/car.c82685a5f03e96a730d3.png",
-    "static/media/Blog.png": "/static/media/Blog.fb3ac48ca464ace55add.png",
+    "static/media/Music.png": "/static/media/Music.62592db03e31eb1254d6.png",
     "static/media/back.jpg": "/static/media/back.1bfed421978cca836933.jpg",
     "static/media/react.png": "/static/media/react.0cf951a69d8e58f83f9d.png",
     "static/media/node.png": "/static/media/node.952a9ea986dcfa5229ad.png",
@@ -13,7 +14,6 @@
     "static/media/logo.png": "/static/media/logo.18e9b5575dcd4d231c5e.png",
     "static/media/github.png": "/static/media/github.3b9e32903aa89111875d.png",
     "static/media/Himesh BhandariCV.pdf": "/static/media/Himesh BhandariCV.80da4c85ed80f77f8412.pdf",
-    "static/media/note.png": "/static/media/note.38d5fe048aa76178471b.png",
     "static/media/net.png": "/static/media/net.774fdcc5485a363a53db.png",
     "static/media/html.png": "/static/media/html.2ba4fabc69a89a8f71e6.png",
     "static/media/css.png": "/static/media/css.69a82c2d9e45c933a9cb.png",
@@ -21,10 +21,10 @@
     "static/media/javascript.png": "/static/media/javascript.1ccd6ef9bb1f9c84ef00.png",
     "index.html": "/index.html",
     "main.75667fdf.css.map": "/static/css/main.75667fdf.css.map",
-    "main.5e0b368e.js.map": "/static/js/main.5e0b368e.js.map"
+    "main.ab131540.js.map": "/static/js/main.ab131540.js.map"
   },
   "entrypoints": [
     "static/css/main.75667fdf.css",
-    "static/js/main.5e0b368e.js"
+    "static/js/main.ab131540.js"
   ]
 }
