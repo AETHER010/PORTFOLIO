@@ -2,7 +2,7 @@ import React, { useEffect } from "react";
 import Ecommerce from "../Images/Ecommerce.png";
 import Music from "../Images/Music.png";
 import Travel from "../Images/Travel.png";
-import car from "../Images/car.png";
+import Fitness from "../Images/Fitness.png";
 import TravelDairy from "../Images/TravelDairy.png";
 import Aos from "aos";
 import "aos/dist/aos.css";
@@ -70,13 +70,20 @@ const Work = () => {
           </div>
           <div
             data-aos="flip-left"
-            style={{ backgroundImage: `url(${car})` }}
+            style={{ backgroundImage: `url(${Fitness})` }}
             className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div"
           >
             <div className="opacity-0 group-hover:opacity-100">
               <span className="text-2xl font-bold text-white tracking-wider">
-                Unity Application
+                React JS Application
               </span>
+              <div className="pt-8 text-center">
+                <a href="https://github.com/AETHER010/Fitness_Site">
+                  <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
+                    Code
+                  </button>
+                </a>
+              </div>
             </div>
           </div>
           <div
