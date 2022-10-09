@@ -12,6 +12,7 @@ import GitHub from "../Images/github.png";
 import Mongo from "../Images/mongo.png";
 import Aos from "aos";
 import "aos/dist/aos.css";
+import "../styles/index.css";
 
 const Skill = () => {
   useEffect(() => {
@@ -37,58 +38,86 @@ const Skill = () => {
         <div className="w-full grid grid-cols-2 sm:grid-cols-4 gap-4 text-center py-8">
           <div
             data-aos="flip-left"
-            className="shadow-md shadow-[#040c16] hover:scale-110 duration-500"
+            className="boxShadow  hover:scale-110 duration-500"
           >
-            <img className="w-20 mx-auto" src={HTML} alt="HTML icon" />
+            <img
+              className="w-20 mx-auto pt-1 mt-1"
+              src={HTML}
+              alt="HTML icon"
+            />
             <p className="my-4">HTML</p>
           </div>
           <div
             data-aos="flip-left"
-            className="shadow-md shadow-[#040c16] hover:scale-110 duration-500"
+            className="boxShadow hover:scale-110 duration-500"
           >
-            <img className="w-20 mx-auto" src={CSS} alt="HTML icon" />
+            <img className="w-20 mx-auto pt-1 mt-1" src={CSS} alt="HTML icon" />
             <p className="my-4">CSS</p>
           </div>
           <div
             data-aos="flip-left"
-            className="shadow-md shadow-[#040c16] hover:scale-110 duration-500"
+            className="boxShadow hover:scale-110 duration-500"
           >
-            <img className="w-20 mx-auto" src={JavaScript} alt="HTML icon" />
+            <img
+              className="w-20 mx-auto pt-1 mt-1"
+              src={JavaScript}
+              alt="HTML icon"
+            />
             <p className="my-4">JAVASCRIPT</p>
           </div>
           <div
             data-aos="flip-left"
-            className="shadow-md shadow-[#040c16] hover:scale-110 duration-500"
+            className="boxShadow hover:scale-110 duration-500"
           >
-            <img className="w-20 mx-auto" src={ReactImg} alt="HTML icon" />
+            <img
+              className="w-20 mx-auto pt-1 mt-1"
+              src={ReactImg}
+              alt="HTML icon"
+            />
             <p className="my-4">REACT</p>
           </div>
           <div
             data-aos="flip-left"
-            className="shadow-md shadow-[#040c16] hover:scale-110 duration-500"
+            className="boxShadow hover:scale-110 duration-500"
           >
-            <img className="w-20 mx-auto" src={GitHub} alt="HTML icon" />
+            <img
+              className="w-20 mx-auto pt-1 mt-1"
+              src={GitHub}
+              alt="HTML icon"
+            />
             <p className="my-4">GITHUB</p>
           </div>
           <div
             data-aos="flip-left"
-            className="shadow-md shadow-[#040c16] hover:scale-110 duration-500"
+            className="boxShadow hover:scale-110 duration-500"
           >
-            <img className="w-20 mx-auto" src={Node} alt="HTML icon" />
+            <img
+              className="w-20 mx-auto pt-1 mt-1"
+              src={Node}
+              alt="HTML icon"
+            />
             <p className="my-4">NODE JS</p>
           </div>
           <div
             data-aos="flip-left"
-            className="shadow-md shadow-[#040c16] hover:scale-110 duration-500"
+            className="boxShadow hover:scale-110 duration-500"
           >
-            <img className="w-20 mx-auto" src={Mongo} alt="HTML icon" />
+            <img
+              className="w-20 mx-auto pt-1 mt-1"
+              src={Mongo}
+              alt="HTML icon"
+            />
             <p className="my-4">MONGO DB</p>
           </div>
           <div
             data-aos="flip-left"
-            className="shadow-md shadow-[#040c16] hover:scale-110 duration-500"
+            className="boxShadow hover:scale-110 duration-500"
           >
-            <img className="w-25 h-20 mx-auto" src={net} alt="HTML icon" />
+            <img
+              className="w-25 h-20 mx-auto pt-1 mt-1"
+              src={net}
+              alt="HTML icon"
+            />
             <p className="my-4">.NET</p>
           </div>
         </div>
