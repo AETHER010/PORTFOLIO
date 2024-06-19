@@ -4,6 +4,7 @@ import "../App.css";
 import Aos from "aos";
 import "aos/dist/aos.css";
 
+//this is the contact form
 const Contact = () => {
   useEffect(() => {
     Aos.init();
